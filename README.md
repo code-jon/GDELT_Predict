@@ -1,6 +1,6 @@
 # data_incubator
 
-This repository holds proof-of-concept code for predicting the impact of global events based on the known outcomes of previous events.  The predicted value in this case was a general positive or negative impact, the code is easily adapted to predict more domain-specific quantities.
+This repository holds proof-of-concept code for predicting the impact of global events based on the known outcomes of previous events.  The predicted value in this case was a general positive or negative impact, but the code is easily adapted to predict more domain-specific quantities.
 
 At this time all training data is obtained from the [GDELT](http://www.gdeltproject.org/) database via Google's BigQuery API.  During my time at the data incubator, I will focus on improving design, flexibility, usability, and incorporating more data sources.
 
