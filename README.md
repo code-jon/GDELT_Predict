@@ -13,12 +13,24 @@ But the data download likely won't work unless you have your own BigQuery creden
 ```
 aws s3 sync http://codejonincubator.s3.amazonaws.com/ <destination>
 ```
+You may also download the files individually by adding one of the following file names to the url above:
+```
+first_6_years_distance_matrix.npy
+last_6_years_distance_matrix.npy
+results_first_6_years.npz
+results_last_6_years.npz
+train_test_first_6_years.npz
+train_test_last_6_years.npz
+```
+
 The generated plots are hosted on Heroku [here.](https://blooming-brushlands-2390.herokuapp.com/) Please give the page a few seconds to load.
 
 The code should be run in python 2.7 with recent versions of the following packages installed:
-pandas,
-numpy,
-glmnet,
-matplotlib,
-geopy,
+```
+pandas
+numpy
+glmnet
+matplotlib
+geopy
 countrycode
+```
