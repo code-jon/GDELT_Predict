@@ -23,7 +23,7 @@ train_test_first_6_years.npz
 train_test_last_6_years.npz
 ```
 
-The generated plots are hosted on Heroku [here.](https://blooming-brushlands-2390.herokuapp.com/) Please give the page a few seconds to load.
+The generated plots are included in this repository, and they are also hosted on Heroku [here.](https://blooming-brushlands-2390.herokuapp.com/) Please give the page a few seconds to load.
 
 The code should be run in python 2.7 with recent versions of the following packages installed:
 ```
