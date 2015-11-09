@@ -1,4 +1,4 @@
-# data_incubator
+# GDELT_Predict
 
 This repository holds proof-of-concept code for predicting the impact of global events based on the known outcomes of previous events.  The predicted value in this case was a general positive or negative impact, but the code is easily adapted to predict more domain-specific quantities.
 
